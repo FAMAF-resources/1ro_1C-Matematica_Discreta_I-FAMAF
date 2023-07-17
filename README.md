@@ -1,16 +1,16 @@
-![GitHub Repo Size](https://img.shields.io/github/repo-size/FAMAF-resources/Template-repository)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/FAMAF-resources/Matematica_Discreta_I-FAMAF)
 
-# Materia - FAMAF - Computacion
+# Matematica Discreta I - FAMAF - Computacion
 
-> Cuatrimestre
+> 1C
 
 Necesita tener aprobada:
 
-- 1
+- Ingreso
 
 Es correlativa de:
 
-- 1
+- Ingreso
 
 ## Clonar el repositorio
 
@@ -20,9 +20,9 @@ git clone <repo-url>
 
 # Contribuciones
 
-Cualquier persona puede realiza su aporte con apunte, libro, o actualizacion de este repositoro. Puede ser realizado por una pull request (PR) comunicarse con los administradores.
+Cualquier persona puede realiza su aporte con apunte, libro, o actualizacion de este repositoro. Puede ser realizado por una pull request (PR) o comunicarse con los administradores.
 
 # Contributors
-<a href="https://github.com/FAMAF-resources/Template-repository/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=FAMAF-resources/Template-repository"/>
+<a href="https://github.com/FAMAF-resources/Matematica_Discreta_I-FAMAF/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=FAMAF-resources/Matematica_Discreta_I-FAMAF"/>
 </a>
