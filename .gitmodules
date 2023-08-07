@@ -1,0 +1,3 @@
+[submodule "Famaf-Resources-Manager"]
+	path = Famaf-Resources-Manager
+	url = git@github.com:FAMAF-resources/Famaf-Resources-Manager.git

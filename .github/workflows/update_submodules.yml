@@ -1,0 +1,53 @@
+name: 'Update Submodule Action'
+on:
+  repository_dispatch:
+    types: [update-submodules-famaf]
+  schedule:
+    - cron: '0 0 * * *'
+    - cron: '0 12 * * *'
+  # push:
+  #   branches:
+  #     - main
+  pull_request:
+    branches:
+      - main
+
+env:
+  SHOULD_COMMIT: ''
+
+jobs:
+  famaftestupdate:
+    name: Update submodules
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+          submodules: recursive
+      - name: Update submodules
+        run: git submodule update --init --recursive --checkout -f --remote
+
+      - name: Update status
+        id: status
+        run: |
+          echo $(git status -s)
+          if [[ $(git status -s) ]]; then
+            export SHOULD_COMMIT=true
+          else
+            export SHOULD_COMMIT=false
+          fi
+          echo "SHOULD_COMMIT=$SHOULD_COMMIT" >> $GITHUB_ENV
+          echo "SHOULD_COMMIT=$SHOULD_COMMIT"
+
+      - name: Config git
+        if: ${{ env.SHOULD_COMMIT == 'true' }}
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "noreply@github.com"
+          source ./parentRepository/scripts/update_w_from_parent.sh
+          git add .github
+          git commit -am "[BOT] Update submodules at $(date "+DATE: %Y-%m-%d TIME: %H:%M:%S")"
+          git push
