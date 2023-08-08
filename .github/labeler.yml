@@ -1,0 +1,15 @@
+documentation:
+  - README.md
+  - 'docs/*'
+  - '.github/workflows/*'
+  - '.github/workflows/**/*'
+  - 'assets/*'
+
+exams:
+  - 'ExamenesViejos/*'
+
+apuntes:
+  - 'apuntes/*'
+
+examples:
+  - 'examples/*'

@@ -1,0 +1,18 @@
+addAssignees: author
+
+addReviewers: true
+
+numberOfReviewers: 3
+
+reviewers:
+  - shirosweets
+  - AgustinMDominguez
+  - diofanto33
+  - IvanRenison
+  - gpratoe
+
+runOnDraft: true
+
+filterLabels:
+  exclude:
+    - wip
