@@ -44,9 +44,13 @@ git clone --recurse-submodules git@github.com:FAMAF-resources/1ro_1C-Matematica_
 git pull && git submodule update --init --recursive
 ```
 
-# Contribuciones
+# ¿Cómo contribuir?
 
-Cualquier persona puede realiza su aporte con apunte, libro, o actualizacion de este repositoro. Puede ser realizado por una pull request (PR) o comunicarse con los administradores.
+Este es un proyecto con fines de facilitar el acceso al material para estudio.
+
+Cualquier persona puede realizar su aporte, sea apunte, libro, o actualizacion de este repositoro.
+
+Puede ser realizado por una pull request (PR) o comunicándose con los administradores.
 
 # Contributors
 <a href="https://github.com/FAMAF-resources/1ro_1C-Matematica_Discreta_I-FAMAF/graphs/contributors">
