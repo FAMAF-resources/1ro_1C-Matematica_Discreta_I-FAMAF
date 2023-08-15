@@ -38,6 +38,12 @@ git clone --recurse-submodules https://github.com/FAMAF-resources/1ro_1C-Matemat
 git clone --recurse-submodules git@github.com:FAMAF-resources/1ro_1C-Matematica_Discreta_I-FAMAF.git
 ```
 
+## Update
+
+```bash
+git pull && git submodule update --init --recursive
+```
+
 # Contribuciones
 
 Cualquier persona puede realiza su aporte con apunte, libro, o actualizacion de este repositoro. Puede ser realizado por una pull request (PR) o comunicarse con los administradores.
