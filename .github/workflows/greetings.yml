@@ -1,0 +1,16 @@
+name: 'Greetings :D'
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1.1.1
+      with:
+        repo-token: ${{ secrets.WORKFLOW_TOKEN }}
+        issue-message: "Muchas gracias por crear un issue! Lo apreciamos :dizzy:"
+        pr-message: "Muchas gracias por aportar en nuestra comunidad! :people_hugging: Puedes ver mas al respecto en [Welcome](https://github.com/FAMAF-resources/.github/tree/main/profile/README.md) y las materias en [](https://github.com/FAMAF-resources/Welcome)"

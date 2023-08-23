@@ -1,15 +1,33 @@
 documentation:
   - README.md
   - 'docs/*'
-  - '.github/workflows/*'
-  - '.github/workflows/**/*'
+  - 'docs/**/*'
   - 'assets/*'
+  - 'assets/**/*'
 
 exams:
   - 'ExamenesViejos/*'
+  - 'ExamenesViejos/**/*'
 
 apuntes:
   - 'apuntes/*'
+  - 'apuntes/**/*'
 
 examples:
   - 'examples/*'
+
+workflows:
+  - '.github/workflows/*'
+  - '.github/workflows/**/*'
+
+libros:
+  - 'libros/*'
+  - 'libros/**/*'
+
+practico:
+  - 'practico/*'
+  - 'practico/**/*'
+
+teorico:
+  - 'teorico/*'
+  - 'teorico/**/*'
