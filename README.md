@@ -52,6 +52,12 @@ Cualquier persona puede realizar su aporte, sea apunte, libro, o actualizacion d
 
 Puede ser realizado por una pull request (PR) o comunicándose con los administradores.
 
+Si te ha servido, nos ayuda un monton que le des a la estrellita!
+
+# Nuestra comunidad
+
+[Sobre nosotros](https://github.com/FAMAF-resources/.github/tree/main/profile/README.md)
+
 # Contributors
 <a href="https://github.com/FAMAF-resources/1ro_1C-Matematica_Discreta_I-FAMAF/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=FAMAF-resources/1ro_1C-Matematica_Discreta_I-FAMAF" height="50"/>

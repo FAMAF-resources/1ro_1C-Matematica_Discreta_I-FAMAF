@@ -3,4 +3,4 @@
 	url = git@github.com:FAMAF-resources/Famaf-Resources-Manager.git
 [submodule "ExamenesViejos"]
 	path = ExamenesViejos
-	url = git@github.com:ExamenesViejos-FaMAF-Computacion/ExamenesViejos_MatematicaDiscreta1_FaMAF.git
+	url = git@github.com:Famaf-Resources-Manager/FR_ExamenesViejos_MatematicaDiscreta1_FaMAF.git
